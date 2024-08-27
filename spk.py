@@ -3,7 +3,7 @@ import sys,requests,zipfile,shutil,os
 
 
 def install(url:str):
-    SPK_INFO = 'SPK! 3.0 info:'
+    SPK_INFO = 'SPK! 1.0 info:'
     global k
     filename = url.split('/')[-1]
     print(SPK_INFO + '''Installing ''' + repr(filename))
